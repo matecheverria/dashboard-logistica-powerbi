@@ -1,4 +1,17 @@
 
+
+## 📥 Reutilización sin conexión a base de datos
+
+Para facilitar la revisión, se incluyen archivos `.csv` con los datos utilizados.  
+Puedes abrir el archivo `.pbix`, eliminar la conexión SQL original y cargar estos archivos como nuevas tablas en Power BI.
+
+Archivos disponibles:
+- `ordenes.csv`
+- `entregas.csv`
+- `zonas.csv`
+- `transportistas.csv`
+
+
 # 📦 Dashboard de Logística – Power BI
 
 Este proyecto presenta un dashboard interactivo de análisis logístico utilizando Power BI, enfocado en la gestión de entregas por zona, transportista y desempeño mensual.
