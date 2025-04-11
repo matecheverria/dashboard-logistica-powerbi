@@ -1,4 +1,12 @@
 
+## ⚠️ Requisitos para abrir este proyecto
+
+Este archivo `.pbix` está conectado a una base de datos local SQL Server (LocalDB).  
+Para replicar el análisis, se requiere tener instalada la instancia `(localdb)\MSSQLLocalDB` y la base `LogisticaDB` con las tablas `ordenes`, `entregas`, `zonas` y `transportistas`.
+
+Se incluye el script SQL completo para crear la base y poblarla con datos históricos:
+📄 `logistica_db_completa.sql`
+
 
 ## 📥 Reutilización sin conexión a base de datos
 
