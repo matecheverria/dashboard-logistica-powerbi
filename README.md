@@ -84,6 +84,23 @@ Visuales principales:
 
 ---
 
+## 🗃 Script de base de datos
+
+Se incluye el archivo `logistica_db_completa.sql` para crear la base de datos `LogisticaDB` en SQL Server LocalDB.
+
+Este script:
+- Elimina la base si ya existe
+- Crea las tablas `zonas`, `transportistas`, `ordenes`, y `entregas`
+- Inserta datos simulados para análisis logístico
+
+### 🔁 ¿Cómo usarlo?
+
+1. Abre **SQL Server Management Studio (SSMS)**
+2. Conéctate a `(localdb)\MSSQLLocalDB`
+3. Abre el archivo `logistica_db_completa.sql`
+4. Ejecuta todo (Ctrl + A > F5)
+
+
 ## 👨‍💻 Autor
 
 **Matías Echeverría**  
